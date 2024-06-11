@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import NavBar from './components/view/Navbar.vue';
-import FooterView from './components/view/FooterView.vue';
-import BodyView from './components/view/BodyView.vue';
+import NavBar from './Navbar.vue';
+import FooterView from './FooterView.vue';
+import BodyView from './BodyView.vue';
 
 export default {
   name: 'HomePage',

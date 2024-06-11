@@ -25,7 +25,7 @@ export default {
   margin: 0;
   padding: 0;
   height: 100vh; /* 100% of the viewport height */
-  background-image: linear-gradient(180deg, rgba(1, 17, 22, 0.638), rgb(8, 8, 50));
+  background-image: linear-gradient(180deg, #f20e69a3, rgb(250, 15, 117));
   color: #333;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,12 @@ export default {
   margin: 20px auto;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #000;
+  }
+
+  p{
+    color: #000;
+    text-align: center;
   }
 </style>
